@@ -18,7 +18,7 @@
 
 .header__link {
   display: flex;
-  font-family: "Raleway-regular", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -54,7 +54,7 @@
   max-width: 240px;
 }
 
-.address a {
+.address .address_link {
   font-size: 18px;
   color: #000;
   letter-spacing: 0;
@@ -107,6 +107,7 @@
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
+  text-transform: uppercase;
 
   /* это сделано для того что бы небыло отступа после последней буквы */
   --spacing: 0.3em;
